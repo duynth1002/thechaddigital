@@ -1,0 +1,44 @@
+:root {
+  color-scheme: dark;
+  --bg: #14110d;
+  --panel: #1d1913;
+  --ink: #f3ead8;
+  --muted: #b7a98c;
+  --line: #3a3226;
+  --amber: #e2b04a;
+  --amber-dim: #8a6a24;
+  --green: #9ecb7a;
+  --red: #d36b4f;
+  --steel: #2a241c;
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+  background:
+    radial-gradient(circle at top, #2a2318, transparent 28%),
+    var(--bg);
+  color: var(--ink);
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+}
+
+body {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 18px,
+    rgba(226, 176, 74, 0.03) 18px,
+    rgba(226, 176, 74, 0.03) 19px
+  );
+}

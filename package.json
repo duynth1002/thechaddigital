@@ -1,0 +1,11 @@
+{
+  "name": "elevator-simulator",
+  "private": true,
+  "description": "10-floor, 3-car elevator simulator (Node + React)",
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "start": "npm start --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "test": "npm test --prefix server"
+  }
+}
